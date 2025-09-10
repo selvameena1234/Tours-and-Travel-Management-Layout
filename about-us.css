@@ -1,0 +1,201 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;   
+        
+}
+* {
+  box-sizing: border-box;
+  
+}
+.search-box {
+      position: relative;
+      width: 300px;
+    }
+
+    .search-box input[type="text"] {
+      width: 100%;
+      padding: 10px 40px 10px 15px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      outline: none;
+    }
+
+    .search-box .fa-search {
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #999;
+    }
+    .nav li a {
+
+    padding: 12px;
+          color: black;
+          font-size: 20px;
+          
+
+}
+
+.nav {
+    margin-left: 40px;
+    gap: 40px;
+    height: 70px;
+    padding:12px;
+    
+    
+}
+
+.home{
+  margin-left:40px;
+  margin-right:40px;
+}
+
+.image img{
+    margin-left: 20px;
+    height: 700px;
+}
+.txt h2{
+    margin-left: 600px;
+    color: skyblue;;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+.grid1 li{
+    font-size: 30px;
+}
+
+.txt1{
+    margin-right:20px;
+    font-size: 30px;
+}
+.txt1 b{
+    color: skyblue;
+}
+.txt2 h2{
+    color: skyblue;
+    margin-left: 600px;
+}
+.txt2 p{
+    margin-left: 100px;
+    font-size: 30px;
+}
+.txt3 h2{
+    color: black;
+    margin-left: 400px;
+}
+.txt3 p{
+    margin-left: 100px;
+    font-size: 30px;
+
+        color: black;
+
+}
+.txt3{
+    background-color: skyblue;
+    padding: 20px;
+}
+.txt3 button{
+    border-radius: 20px;
+    margin-left: 600px;
+}
+.image {
+    position: relative;
+      
+
+
+}
+.overlay {
+    position: absolute;
+    top: 10%;
+  left: 40%;
+color: white;
+    
+  
+}
+.overlay2{
+    position: absolute;
+    top: 30%;
+  left: 20%;
+color: white;
+    
+    
+}
+.overlay3{
+    position: absolute;
+    top: 50%;
+  left: 10%;
+color: white;
+font-size: 10px;    
+    
+}
+
+.im1 img{
+    margin-left: 10px;
+    height:400px;
+}
+.im1{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top:20%;
+    left:6%;
+}
+.logo img{
+    height: 100px;
+}
+.high{
+    position: absolute;
+    top:20%;
+    left:30%;
+    color: white;
+    font-size: 22px;
+}
+.high2{
+    position: absolute;
+    top:20%;
+    left:50%;
+    color: white;
+    font-size: 22px;
+}
+.high3 img{
+    height: 20px;
+    
+}
+.high3{
+    position: absolute;
+    top:20%;
+    left:70%;
+    color: white;
+    font-size: 22px;
+}
+.high3 ul li img{
+    color: white;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: skyblue;
+    padding: 30px;
+    font-style: bold;
+    margin-top: 0px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap:5px;
+}
+.txt3 button:hover{
+    color: skyblue;
+    background-color: whiteh;
+
+}

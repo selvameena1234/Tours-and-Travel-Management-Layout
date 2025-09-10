@@ -1,0 +1,301 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+
+        
+        
+}
+* {
+  box-sizing: border-box;
+  
+}
+.search-box {
+      position: relative;
+      width: 300px;
+    }
+
+    .search-box input[type="text"] {
+      width: 100%;
+      padding: 10px 40px 10px 15px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      outline: none;
+    }
+
+    .search-box .fa-search {
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #999;
+    }
+    .nav li a {
+
+    padding: 12px;
+          color: black;
+          font-size: 20px;
+          
+
+}
+
+.nav {
+    margin-left: 40px;
+    gap: 40px;
+    height: 70px;
+    padding:12px;
+    
+    
+}
+.image img{
+    margin-left:50px;
+}
+.image{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top:20%;
+    left:40%;
+    color:white;
+}
+.para{
+  position: absolute;
+  top:30%;
+  left:20%;
+  color: white;
+  font-size: 30px;
+}
+
+
+
+body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: white;
+      color: #000;
+    }
+
+    .help-section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .help-section h2 {
+      font-size: 26px;
+      color: #4ad0ff;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .help-section p {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 30px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .help-section button {
+      background-color: #4ad0ff;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 25px;
+      padding: 14px 36px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-bottom: 50px;
+    }
+
+    .help-section button:hover {
+      background-color: #34bde6;
+    }
+    
+
+
+.im1 img{
+    margin-left: 10px;
+    height:400px;
+}
+.im1{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top:20%;
+    left:6%;
+}
+.logo img{
+    height: 100px;
+}
+.des h4{
+  margin-left: 600px;
+  color: skyblue;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+}
+.overlay{
+  position: relative;
+  background-color: skyblue;
+  height: 400px;
+}
+.over{
+  position: absolute;
+  top:30%;
+}
+.text2 p{
+  font-size: 20px;
+}
+.text2{
+  padding: 30px;
+}
+.overlay2{
+  position: relative;
+  background-color: skyblue;
+}
+.over2{
+  position: absolute;
+  top:20%;
+}
+.pic{
+  padding: 30px;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+}
+.parag {
+  
+  padding: 30px;
+}
+.parag p{
+  font-size: 20px;
+}
+.grids{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+}
+.overlays{
+  position: relative;
+  background-color: skyblue;
+  height: 400px;
+}
+.overs{
+  position: absolute;
+  top:30%;
+}
+.text3 p{
+  font-size: 20px;
+}
+.text3{
+  padding: 30px;
+}
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+}
+.parag {
+  
+  padding: 30px;
+}
+.parag p{
+  font-size: 20px;
+}
+.overlay3{
+  position: relative;
+  background-color: skyblue;
+}
+.over3{
+  position: absolute;
+  top:20%;
+}
+.pic1{
+  padding: 30px;
+}
+.parag1 {
+  
+  padding: 30px;
+}
+.parag1 p{
+  font-size: 20px;
+}
+.image3 button{
+  border-radius: 20px;
+  padding: 15px;
+  background-color: lightblue;
+}
+.image3 button:hover{
+  background-color: gray;
+}
+.image2 button{
+  border-radius: 20px;
+  padding: 15px;
+  background-color: lightblue;
+}
+.image2 button:hover{
+  background-color: gray;
+}
+
+.high{
+    position: absolute;
+    top:20%;
+    left:30%;
+    color: white;
+    font-size: 22px;
+}
+.high ul li{
+  list-style: none;
+}
+.high2{
+    position: absolute;
+    top:20%;
+    left:50%;
+    color: white;
+    font-size: 22px;
+}
+.high2 ul li{
+  list-style: none;
+}
+.high3 img{
+    height: 20px;
+    
+}
+.high3{
+    position: absolute;
+    top:20%;
+    left:70%;
+    color: white;
+    font-size: 22px;
+}
+.high3 ul li{
+  list-style: none;
+}
+.high3 ul li img{
+    color: white;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: skyblue;
+    padding: 30px;
+    font-style: bold;
+    margin-top: 0px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap:5px;
+}
